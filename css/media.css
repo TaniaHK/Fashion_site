@@ -1,0 +1,116 @@
+
+
+@media only screen and (min-width: 440px) {
+    .footer {background: red;}
+    .foto-item {height: 457px;}
+    .scale-wrapper {width: 340px;}
+    .text-conteiner{width: 340px;height: 320px;}
+    .bag-item-img.show{width: 332px; height: 320px;}
+    .bag-item-block{width: 332px; height: 320px;}
+    .second-text-block{width: 340px;height: 320px;}
+    .form-text{width: 340px;height: 220px;}
+    .firm-block{flex-direction: column;}
+    .second-foto-block{grid-template-columns: 340px }
+    .second-foto-item{width: 340px;height: 275px;}
+    .final-form{width: 340px;height: 930px;}
+    input {width: 340px;}
+    textarea{width: 340px;}
+    .conteiner-flex {flex-direction: column;}
+    .inline-block {width: 80%;}
+    .content-block{ height: 410px;}
+    .content-block:has(> h2) { height: max-content;}
+    .content-block p {width: 320px;}
+    .table-block{grid-template-columns: 300px;}
+
+  }
+  
+  @media only screen and (min-width: 660px) {
+    .footer {background: green;}
+    .foto-item {height: 730px;}
+    .scale-wrapper {width: 540px;}
+    .text-conteiner{width: 540px;height: 192px;}
+    .bag-item-img.show{width: 540px; height: 520px;}
+    .bag-item-block{width: 540px; height: 520px;}
+    .second-text-block{width: 540px;height: 192px;}
+    .form-text{width: 540px;height: 200px;}
+    .firm-block{flex-direction: column;}
+    .second-foto-block{grid-template-columns: 540px}
+    .second-foto-item{width: 540px;height: 442px;}
+    .final-form{width: 640px;height: 741px;}
+    input {width: 489px;}
+    textarea{width: 489px;}
+    .conteiner-flex {flex-direction: column;}
+    .inline-block {width: 80%;}
+    .content-block{ height: 410px;}
+    .content-block:has(> h2) { height: max-content;}
+    .content-block p {width: 520px;}
+    .table-block{grid-template-columns: 500px;}
+  }
+
+  @media only screen and (min-width: 820px) {
+    .footer {background: blue;}
+    .foto-item {height: 486px;}
+    .scale-wrapper {width: 355px;}
+    .text-conteiner{width: 720px;height: 160px;}
+    .bag-item-img.show{width: 340px; height: 335px;}
+    .bag-item-block{width: 340px; height: 335px;}
+    .second-text-block{width: 720px;height: 160px;}
+    .form-text{width: 720px;height: 200px;}
+    .firm-block{flex-direction: row;}
+    .second-foto-block{grid-template-columns: 720px}
+    .second-foto-item{width: 720px;height: 592px;}
+    .final-form{width: 820px;height: 727px;}
+    input {width: 489px;}
+    textarea{width: 489px;}
+    .conteiner-flex {flex-direction: column;}
+    .inline-block {width: 80%;}
+    .content-block{ height: 410px;}
+    .content-block:has(> h2) { height: max-content;}
+    .content-block p {width: 460px;}
+    .table-block{grid-template-columns: 320px 320px;}
+  }
+  @media only screen and (min-width: 1300px) {
+    .footer {background: orange;}
+    .foto-item {height: 428px;}
+    .scale-wrapper {width: 307px;}
+    .text-conteiner{width: 772px;height: 128px;}
+    .bag-item-img.show{width: 220px; height: 207px;}
+    .bag-item-block{width: 220px; height: 207px;}
+    .second-text-block{width: 772px;height: 128px;}
+    .form-text{width: 772px;height: 200px;}
+    .firm-block{flex-direction: row;}
+    .second-foto-block{grid-template-columns: 370px 370px;}
+    .second-foto-item{width: 370px;height: 320px;}
+    .final-form{width: 1050px;height: 727px;}
+    input {width: 489px;}
+    textarea{width: 489px;}
+    .conteiner-flex {flex-direction: row;}
+    .inline-block {width: 49%;}
+    .content-block{height:400px}
+    .content-block:has(> h2) { height: 400px;}
+    .content-block p {width: 410px;}
+    .table-block{grid-template-columns: 195px 195px 195px 195px;}
+  } 
+  
+  @media only screen and (min-width: 1500px) {
+    .footer {background: pink;}
+    .foto-item {height: 520px;}
+    .scale-wrapper {width: 373px;}
+    .text-conteiner{width: 772px;height: 128px;}
+    .bag-item-img.show{width: 257px; height: 275px;}
+    .bag-item-block{width: 257px; height: 275px;}
+    .second-text-block{width: 772px;height: 128px;}
+    .form-text{width: 772px;height: 200px;}
+    .firm-block{flex-direction: row;}
+    .second-foto-block{grid-template-columns: 370px 370px;}
+    .second-foto-item{width: 370px;height: 320px;}
+    .final-form{width: 1100px;height: 727px;}
+    input {width: 489px;}
+    textarea{width: 489px;}
+    .conteiner-flex {flex-direction: row;}
+    .inline-block {width: 49%;}
+    .content-block{height:400px} ;
+    .content-block:has(> h2) { height: 400px;}
+    .content-block p {width: 430px;}
+    .table-block{grid-template-columns: 225px 225px 225px 225px;}
+  }

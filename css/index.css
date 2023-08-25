@@ -1,0 +1,72 @@
+iframe {
+    height: 100vh;
+    margin: 0  auto;
+    margin-top: 70px;
+    width: 100%;
+}
+.iframe-block {
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.logo-block {
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    height:70px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.buttons-block {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    user-select: none;
+}
+.img-btn {
+    width: 32px;
+    height: 32px;
+    border: none; 
+    background-size: cover;
+}
+.desktop-icon {
+    background-image: url('../img/responsive-desktop.png');
+}
+
+.laptop-icon {
+    background-image: url('../img/responsive-laptop.png');
+}
+
+.tablet-icon {
+    background-image: url('../img/responsive-tablet.png');
+}
+
+.phone-horizontal-icon {
+    background-image: url('../img/responsive-phone-horizontal.png');
+}
+
+.phone-icon {
+    background-image: url('../img/responsive-phone.png');
+}
+
+.btn:hover {
+    background-color: #e2f0fc;
+}
+
+.btn-active {
+    background-color: #c9e4f9;
+}
+
+.logo {
+    height: 40px;
+    width: 123px;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}

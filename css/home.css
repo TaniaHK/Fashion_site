@@ -1,0 +1,369 @@
+body{
+   margin: 0 auto;
+}
+h2 {
+   color:#111111d0;
+   font-family: Montserrat, sans-serif !important;
+   font-size: 24px;
+}
+p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #999999;
+    letter-spacing: 1px;
+    line-height: 1,4;
+}
+input {
+    width: 489px;
+    border-style: groove;
+    padding: 15px;
+    margin-top:5px;
+    border: 1px solid #0c0707;
+}
+
+textarea {
+    width: 489px;
+    border-style: groove;
+    padding: 15px;
+    margin-top:5px;
+    border: 1px solid #0c0707;
+}
+.button-block{
+    margin-top: 90px;
+    text-align: center;
+}
+.foto-block {
+    margin-top: 80px;
+    text-align: center;
+}
+.foto-item {
+    height: 520px;
+    margin: 0 3px;
+}
+.foto-item:hover {
+    transform: scale(1.1); 
+}
+.scale-wrapper {
+    display: inline-block; 
+    overflow: hidden;
+    width:380px;
+}
+.conteiner {
+    padding: 70px 0;
+    margin: 0 auto;
+}
+
+.h-block {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.text-conteiner {
+    width: 772px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.article-conteiner {
+    width: 80%;
+    padding: 70px 0;
+    margin: 30px auto;
+}
+.conteiner-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inline-block {
+    display: inline-block;
+    width: 49%;
+    padding-bottom: 30px;
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    padding: 10px;
+}
+
+.content-block p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 0.875rem;
+    margin-left: auto;
+    line-height: 1.6;
+}
+
+/* .foto-cont{
+    width: 390px;
+    height: 390px;
+}  */
+ 
+.foto-anim {
+    object-fit: cover;
+    animation-fill-mode: both;
+    transform-origin: 50% 50%;
+    width: 0; 
+    height: 0; 
+    opacity:0 ;
+} 
+ 
+.foto-anim.show {
+    opacity: 1;
+    transition: 3s;
+    width: 410px; 
+    height: 410px;
+ }
+
+/* .foto3{
+  width:390px ;
+  height: 390px;
+  text-align: right;
+}  */
+
+.table-block {
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    gap: 40px;
+    justify-content: center; 
+}
+.table-block h2{
+    margin-top: 100px;
+}
+.table-conteiner {
+    display:inline-block;  
+    padding-left: 7px;
+    padding-right: 7px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.text-anim-up {
+    transform: translateY(150px);
+    opacity: 0;
+}
+
+.text-anim-up.show {
+    transform: translateY(0px);
+    transition: 2s;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+.text-anim-down {
+    transform: translateY(-150px);
+    opacity: 0;
+}
+.text-anim-down.show {
+    transform: translateY(0px);
+    transition: 2s;
+    animation-fill-mode: both;
+    opacity: 1;
+}
+
+.num-anim {
+    transform: rotate(180deg);
+    opacity: 0;
+    font-weight: 700;
+    text-align: center;
+}
+.num-anim.show {
+    transform: rotate(0deg);
+    transition: 2s;
+    animation-fill-mode: both;
+    opacity: 1;
+    text-align: center;
+}
+
+.second-text-block {
+    width: 700px;
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.second-text-block h2 {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.bag-block {
+    display:inline-block;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bag-item-img {
+    width: 0px;
+    height: 0px;
+    transform-origin: 50% 50%;
+    opacity: 0;
+}
+
+.bag-item-block {
+    width: 257px;
+    height: 257px;
+}
+
+.bag-item-img.show {
+    width: 257px; 
+    height: 257px; 
+    padding: 10px;
+    opacity: 1;
+    animation-fill-mode: both;
+    transition: 3s;
+}
+
+.paralax {
+    background-image: url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/c3e4a2d25ada5a34aa715e72/fashion-portrait-young-elegant-woman.jpg") ;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #ffff;
+    font-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firm-wrapper {
+    width:60%;
+    margin: 80px auto;
+}
+
+.firm-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.firm-img-block {
+    margin: 10px;
+    line-height: 75px;
+}
+
+.foto-anim-small {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+.foto-anim-small.show {
+    width: 270px;
+    height: 270px;
+    opacity: 1;
+    animation-fill-mode: both;
+    transition: 3s;
+}
+
+.second-foto-block {
+    display: grid;
+    grid-template-columns: 370px 320px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.second-foto-item {
+    width: 370px;
+    height: 320px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.second-foto-item:hover {
+    opacity: 0.7;
+}
+
+#img-view-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#img-view-modal-content {
+    margin: auto;
+    display: block;
+    /* width: 60%;
+    max-width: 600px;   */
+    max-height: 600px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from{-webkit-transform:scale(0)}
+    to{-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+.img-view-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.img-view-modal-close:hover, .img-view-modal-close:focus { 
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.final-form {
+    margin: 0 auto;
+}
+
+.form {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.form-text {
+    width: 700px;
+    text-align: center;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    color: #999999;
+}
+
+.footer-text {
+    padding: 100px;
+}
+
+
+
+
+
